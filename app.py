@@ -8,6 +8,10 @@ import numpy as np
 import pandas as pd
 import os
 from sklearn.naive_bayes import MultinomialNB
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
 
 st.set_page_config(page_title="IMDB Sentiment Classifier", layout="wide")
 
